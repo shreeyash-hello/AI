@@ -1,12 +1,13 @@
 # Heuristic values
-dict_hn={'A':336,'B':0,'C':160,'D':242}
+dict_hn={'A':11,'B':6,'C':99,'D':1,'E':7,'G':0}
 
 # real values
 dict_gn=dict(
-    A=dict(B=190,D=120,C=211),
-    B=dict(A=190,C=138,D=120),
-    C=dict(B=138,A=211),
-    D=dict(B=120,A=120),
+    A=dict(B=2,E=3),
+    B=dict(C=1,G=9),
+    C=0,
+    D=dict(G=1),
+    E=dict(D=6)
 )
 
 import queue as Q
