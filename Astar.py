@@ -13,7 +13,7 @@ dict_gn=dict(
 import queue as Q
 
 start='A'
-goal='C'
+goal='G'
 result=''
 
 def get_fn(Nodestr):
